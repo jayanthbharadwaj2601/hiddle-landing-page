@@ -1,0 +1,153 @@
+body
+{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 420px)
+{
+    body
+    {
+        background-image: url("images/bg-mobile.svg");
+        background-size: 500px;
+    }
+    #flex
+    {
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #image-part
+    {
+        position: relative;
+        left: 400px;
+    }
+    #text-part
+    {
+        position: relative;
+        left: 50px;
+        top: 300px;
+        width: 350px;
+    }
+    #img1
+    {
+        width: 280px;
+    }
+    #img2
+    {
+        width: 150px;
+    }
+    .attribution
+    {
+        position: relative;
+        top: 150px;
+        left: 50px;
+        width: 300px;
+    }
+    #icons
+    {
+        position: relative;
+        left: -170px;
+        top: 365px;
+        gap: 20px;
+    }
+}
+@media (max-height: 420px)
+{
+    #image-part
+    {
+        position: relative;
+        left: 250px;
+    }
+    #img1
+    {
+        width: 280px;
+    }
+    #img2
+    {
+        width: 150px;
+    }
+    #text-part
+    {
+        position: relative;
+        left: 180px;
+        top: 100px;
+        width: 350px;
+    }
+    #icons
+    {
+        position: relative;
+        top: 165px;
+        left: -50px;
+    }
+    .attribution
+    {
+        width: 300px;
+        position: relative;
+        left: 50px;
+    }
+
+}
+#flex
+{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+@media(min-width: 820px)
+{
+    #text-part
+    {
+    position: relative;
+    top: 150px;
+    }
+    #icons
+    {
+        position: relative;
+        left: 100px;
+        top: 250px;
+    }
+}
+#p2
+{
+    position: relative;
+    top: 300px;
+    left: -500px;
+}
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px; 
+}
+#button
+{
+    padding: 10px 10px 10px 10px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(257, 40%, 49%);
+}
+#icons
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.fb:hover
+{
+    cursor: pointer;
+}
+#button:hover
+{
+    cursor: pointer; 
+}
